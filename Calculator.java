@@ -20,12 +20,11 @@ public class Calculator{
 	}
 	return product;
 }
-	public static double getFactorial(double number){
-	double factorial =1;
-	for(int i=1; i<number;i++){
-	factorial*=i;
-	}
-	return factorial;
+public static int getFactorial(int num){
+		double factorial=1;
+		for (int i=1;i<=num;i++){
+			factorial*=i;
+		}return (int) factorial;
 
 }
 }
