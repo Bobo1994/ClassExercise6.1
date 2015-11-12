@@ -21,7 +21,7 @@ public class Calculator{
 	return product;
 }
 public static int getFactorial(int num){
-		double factorial=1;
+		int factorial=1;
 		for (int i=1;i<=num;i++){
 			factorial*=i;
 		}return (int) factorial;
